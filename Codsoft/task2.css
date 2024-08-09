@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapics.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.navbar li {
+    display:inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+
+.navbar ul li:hover{
+    background-color: #eb20eb;
+    transition: 0.5s ease;
+}
+.navbar ul li:Active{
+    background-color:rgb(0, 140, 255);
+
+}
+
+
+.about{
+    text-align: center;
+}
+
+
+.footer{
+    background-color: aqua;
+}
+
+.navbar{
+    width: 87%;
+    margin:auto;
+}
+
+.navbar h1{
+    float: left;
+    line-height: 85px;
+    font-size: 35px;
+    color: blue;
+    
+}
+
+.navbar ul li a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+.about .button{
+    background-color: #eb2320;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 12px;
+
+}
+
+.about .button:hover{
+    background-color: aqua;
+    transition: 0.8s ease;
+}
+
+.about li {
+    display:inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+.about{
+    display:inline;
+    color: black;
+    text-align: center;
+}
+.about img{
+    float: left;
+    padding: auto;
+    margin:auto;
+}
+
+.skill li{
+    display:inline;
+    color: rgb(0, 116, 233);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.heading {
+    text-align: center;
+}
+
+
+
+#skills {
+    padding: 10px;
+
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    flex: 1 1 20%; 
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(6, 193, 255);
+    padding: 10px;
+    border-radius:5px;
+
+}
+
+ .button1{
+    background-color: #1f0366;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    text-decoration: none;
+
+}
+
+
+#skills {
+    padding: 10px;
+
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skillss {
+    flex: 1 1 20%; 
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hh  {
+    text-align: center;
+    color: rgb(1, 1, 116);
+
+}
+.skill h4{
+    color:#dd03f5;
+
+}

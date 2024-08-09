@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapics.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.navbar li {
+    display:inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+
+
+.navbar ul li:Active{
+    background-color:rgb(0, 140, 255);
+
+}
+
+
+
+.footer{
+    background-color: aqua;
+}
+
+.navbar{
+    width: 87%;
+    margin:auto;
+}
+
+.navbar h1{
+    float: left;
+    line-height: 85px;
+    font-size: 35px;
+    color: blue;
+    
+}
+
+.navbar ul li a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+.navbar .button{
+    background-color: #eb2320;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 13px 25px;
+    text-decoration: none;
+
+}
+
+.navbar .button:hover{
+    background-color: aqua;
+    transition: 0.8s ease;
+}
+
+#skills {
+    padding: 10px;
+
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-arc {
+    flex: 1 1 20%; 
+    margin: 5px;
+    text-align: center;
+    
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#skills h1{
+    text-align: center;
+    color: rgb(130, 0, 148);
+}
+
+#skills p{
+    color: blue;
+}

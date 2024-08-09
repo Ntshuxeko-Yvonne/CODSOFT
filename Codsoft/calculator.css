@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:antiquewhite;
+    margin: 0;
+}
+
+body h1{
+    color: crimson;
+    float: right;
+}
+
+.cover {
+    background-color: rgb(252, 0, 227);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(62, 53, 53, 0.1);
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InputArea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#inputBox {
+    width: 100%;
+    padding: 10px;
+    font-size: 2.5em;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+input[type="button"] {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    box-shadow: 0 2px #bbb;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:active {
+    background-color: #d4d4d4;
+    box-shadow: 0 1px #aaa;
+    transform: translateY(1px);
+}
+input[type="button"]:nth-child(4n) {
+    background-color: #ff0000;
+    color: white;
+}
+
+input[type="button"]:nth-child(4n):active {
+    background-color: #ff0000;
+}
+
+input[type="button"]:last-child {
+    grid-column: span 2;
+    background-color: #ae49a4;
+    color: white;
+}
+
+input[type="button"]:last-child:active {
+    background-color:#94a045;
+}
